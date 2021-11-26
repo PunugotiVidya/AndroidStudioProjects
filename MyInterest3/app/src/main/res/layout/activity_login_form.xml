@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginFormActivity"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:paddingRight="10sp"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20sp"
+        android:textColorHint="@color/colorAccent"
+        android:hint="Enter the Email Address:"
+        android:textSize="24sp" android:textStyle="bold|italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter the Password:"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="50sp"
+        android:textColor="#ffffff"
+        android:background="#0000ff"
+        android:text=" Login in "
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(or)"
+        android:textSize="24sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="180sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:background="#0000ff"
+        android:text="New User?Sign Up"
+        android:textAlignment="center"
+        android:onClick="creatingTheAccount"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/colorAccent"
+        android:text=" Skip "
+        android:onClick="skippingButton"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+
+</LinearLayout>

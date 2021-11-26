@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8sp"
+    android:paddingRight="8sp"
+    android:paddingBottom="8sp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="60sp"
+        android:hint=" Name :"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30sp"
+            android:textSize="24sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="30sp"
+                    android:textSize="24sp"
+                    android:text="Male"
+                    android:checked="false"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="30sp"
+                    android:text="Female"
+                    android:textSize="24sp"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter the Email Address:"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp" android:textStyle="bold|italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter the Password:"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="50sp"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:text="Create Account"
+        android:onClick="creatingAccount"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

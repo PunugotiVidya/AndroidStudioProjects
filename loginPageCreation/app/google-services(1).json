@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "403789545606",
+    "firebase_url": "https://loginform-bb845.firebaseio.com",
+    "project_id": "loginform-bb845",
+    "storage_bucket": "loginform-bb845.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403789545606:android:2ed431ea23815c54",
+        "android_client_info": {
+          "package_name": "com.example.loginpagecreation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403789545606-cugsv8ksuqvu20jvbpk1pn2qa4ajtp3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJxsXbVnWhLKG_pJKMIUh4m3XcXjDN6vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403789545606-cugsv8ksuqvu20jvbpk1pn2qa4ajtp3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5sp"
+    android:paddingTop="5sp"
+    android:paddingBottom="5sp"
+    android:paddingRight="5sp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0f294e">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="REGISTRATION FORM"
+      android:textColor="#dbe103"
+      android:layout_marginLeft="50sp"
+      android:layout_marginTop="60sp"
+      android:textSize="30sp"
+      android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:layout_marginTop="90sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="   User Name  "
+        android:textAlignment="center"
+        android:id="@+id/edituserName"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#667993"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:background="@drawable/edit_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="   Enter the E-mail"
+        android:textAlignment="center"
+        android:id="@+id/editEmail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#667993"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:background="@drawable/edit_text"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="38sp"
+    android:layout_marginTop="40sp"
+    android:layout_marginLeft="30sp"
+    android:layout_marginRight="30sp"
+    android:hint="   Enter the password"
+        android:textAlignment="center"
+    android:id="@+id/editpassword"
+    android:inputType="textPassword"
+    android:textSize="24sp"
+    android:textStyle="bold|italic"
+    android:textColorHint="#667993"
+        android:background="@drawable/edit_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="   Confirm password"
+        android:textAlignment="center"
+        android:id="@+id/editconfirmpassword"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColorHint="#667993"
+        android:background="@drawable/edit_text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:textSize="24sp"
+        android:text="  REGISTER  "
+        android:id="@+id/button"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold|italic"/>
+
+
+
+
+</LinearLayout>

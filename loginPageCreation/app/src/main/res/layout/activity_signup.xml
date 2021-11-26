@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8sp"
+    android:paddingRight="8sp"
+    android:paddingBottom="8sp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="60sp"
+       android:id="@+id/etName"
+        android:inputType="text"
+        android:hint=" Name :"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter the Email Address:"
+        android:id="@+id/etSignupEmail"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp" android:textStyle="bold|italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/etSignupPswd"
+        android:hint="Enter the Password:"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:layout_marginLeft="90sp"
+        android:text="Already SignUp?Login"
+        android:id="@+id/txtLogin"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="50sp"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:text="Create Account"
+        android:onClick="creatingAccount"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
